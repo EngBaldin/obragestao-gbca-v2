@@ -1,0 +1,13 @@
+{
+  "name": "obragestao-worker",
+  "version": "1.0.0",
+  "description": "Proxy seguro Anthropic API para ObraGestão",
+  "main": "worker.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
